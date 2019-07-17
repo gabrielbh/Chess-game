@@ -1,0 +1,16 @@
+gabriel121
+amitos890
+https://github.cs.huji.ac.il/amitos890/ex2
+
+
+BONUS PART:
+
+In my game i can overcome checkmate by moving a different piece, not only the king itself.
+
+I do this like that:
+ If in the beginning of the turn my king was threatened (check) ill also check in the
+ end of the turn if my king is still in threat by a different colored pieces on the table
+ (it is a check im doing in the end of every turn), and if he is i cancel this input,
+ and ask for a different one. if i killed the threat or used another piece of mine as
+ a divider between the threat to my king, so when ill check if my king is in risk ill
+ get a negative answer.
